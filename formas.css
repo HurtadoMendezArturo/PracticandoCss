@@ -1,0 +1,27 @@
+.name{
+    background-color: darkcyan;
+}
+
+.hex{
+    background-color: #F33308;
+}
+
+.rgb{
+    background-color: rgb(226, 222, 29);
+}
+
+.rgba{
+    background-color: rgba(12, 127, 57, 0.5);
+}
+
+.hsl{
+    background-color: hsl(16, 100%, 50%);
+}
+
+.hsla{
+    background-color: hsla(16, 100%, 50%, 0.5); /*#FFA17F*/
+}
+
+body{
+    background-color: #FFA17F;
+}
