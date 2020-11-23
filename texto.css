@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Texturina:wght@100&display=swap');
+
+h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #c69c6d;
+    text-shadow: 2px 2px 5px black;
+}
+p{
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.capital::first-letter{
+    color: #c69c6d;
+    font-size: 80px;
+    float: left;
+    background-color: brown;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+
+.linea{
+    text-decoration: underline;
+}
+
+.linea2{
+    font-style: italic;
+}
+
+.border{
+    border: 5px dashed gray;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
