@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: red;
+    background-color: aqua;
+}
+
+h2{
+    color: blue;
+}
+#ultimo{
+    color: green;
+}
+h2.brown{
+    color: brown;
+}
