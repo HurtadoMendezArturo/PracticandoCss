@@ -1,0 +1,30 @@
+.contenedor{
+    font-size: 32px;
+}
+
+.pixeles{
+    font-size: 32px;
+    background-color: gray;
+    width: 700px;
+}
+
+.porcentaje{
+    font-size: 200%; 
+    background-color: gray;
+    width: 50%;
+
+}
+
+.em{
+    font-size: 1.5em;
+    background-color: gray;
+    width: 1em;
+
+}
+
+.rem{
+    font-size: 0.8rem;
+    background-color: gray;
+    width: 1rem;
+
+}
