@@ -1,0 +1,36 @@
+/*.contenedor{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background: gray;
+
+    transition-property: background, width;
+    transition-duration: 1000ms, 2000ms;
+    transition-timing-function: cubic-bezier(.02,1.5,1,-0.71);
+    
+}
+.contenedor:hover{
+    background: green;
+    width: 100%;
+
+}
+*/
+
+.contenedor{
+    border: 1px solid;
+    height: 32px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.barra{
+    height: 100%;
+    width: 10%;
+    background: green;
+
+    transition: width 300ms cubic-bezier(0,1.49,.68,-0.69) 1000ms;
+}
+
+.barra:hover{
+    width: 100%;
+}
