@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+body{
+    background-color: gray;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+}
+/*--------------menu principal-----------*/
+.menu{
+    background-color: black;
+    display: inline-flex;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.menu a.activo{
+    background-color: white;
+    color: black;
+}
+
+/*---------------Redes Sociales------------*/
+
+.social{
+    margin: 30px 0;
+}
+
+.social a{
+    padding: 0 10px;
+    color: white;
+}
+
+.social a:hover{
+    color: black;
+}
+
+/*---------------YouTube--------------*/
+
+.boton a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton a:hover{
+    color: red;
+    background-color: white;
+}
