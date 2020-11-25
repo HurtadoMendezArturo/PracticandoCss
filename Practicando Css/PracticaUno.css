@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Raleway:wght@300&family=Texturina:wght@200&display=swap');
+
+h1{
+    font-family: 'Goldman', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: burlywood;
+    text-shadow: 10px 10px 5px black;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 5px 5px 5px black;
+}
+
+p{
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: blue;
+}
+
+.contenedor{
+    border: 5px dashed black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
