@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil+Display:wght@300&family=Sansita+Swashed&display=swap');
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: darkcyan;
+    text-shadow: 10px 10px 15px black ;
+}
+
+h2{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 55px;
+    text-align: center;
+    color: darkred;
+    text-shadow: 10px 10px 25px;
+}
+
+p{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: justify;
+    font-size: 35px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+.contenedor{
+    border: 5px dashed black;
+    margin: 10% 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

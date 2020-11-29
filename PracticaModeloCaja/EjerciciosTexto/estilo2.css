@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Great+Vibes&family=Piedra&display=swap');
+
+h1{
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    color: tan;
+    font-size: 55px;
+    text-shadow: 5px 5px 10px black;
+}
+
+h2{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 65px;
+    color: cornflowerblue;
+    text-shadow: 10px 10px 15px black;
+}
+
+p{
+    font-size: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color:sienna;
+}
+
+a:hover{
+    color: blue;
+}
+
+.contenedor{
+    border: 5px dashed black;
+    margin: 10% 15% 10% 15%;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&family=Teko:wght@300&display=swap');
+
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    font-size: 65px;
+    color: yellowgreen;
+    text-shadow: 5px 5px 10px black ;
+}
+
+p{
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: forestgreen;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;
+}
+
+.contenedor{
+    border: 10px dashed black;
+    margin: 5% 10%;
+    display: inline-block;
+}

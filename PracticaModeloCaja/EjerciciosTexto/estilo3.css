@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Piedra&family=Prompt:wght@200&display=swap');
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(37, 107, 187);
+    text-shadow: 5px 5px 15px rgb(37, 107, 187);
+}
+
+h2{
+    font-family: 'Piedra', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: saddlebrown;
+    text-shadow: 10px 10px 25px green;
+}
+
+p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: firebrick;
+    text-transform: uppercase;
+}
+a:hover{
+    color: darkblue;
+}
+
+.conte{
+    border: 5px dashed black;
+    margin: 10% 15%;
+}
