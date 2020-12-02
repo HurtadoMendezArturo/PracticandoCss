@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.uno{
+    background: saddlebrown;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    padding: 15px;
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.dos{
+    background: darkgreen;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    padding: 15px;
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.uno:hover{
+    background: firebrick;
+    color: blue;
+}
+
+.dos:hover{
+    background: darkcyan;
+    color: brown;
+}
