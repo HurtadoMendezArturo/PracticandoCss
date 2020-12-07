@@ -1,0 +1,58 @@
+body{
+    background: gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background: black;
+    display: inline-flex;
+    margin-bottom: 5px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0  10px;
+}
+
+a.activo{
+    background: white;
+    color: black;
+}
+
+.social{
+    margin: 30px 0;
+}
+
+.social a{
+    color: white;
+    padding: 0 10px;
+}
+
+.boton{
+    text-decoration: none;
+}
+
+.boton a{
+    color: white;
+    text-decoration: none;
+    background: red;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.boton a:hover{
+    background: white;
+    color: red;
+}
+
+.menu a:hover{
+    background: white;
+    color: black;
+}
+
+.social a:hover{
+    color: blue;
+}
