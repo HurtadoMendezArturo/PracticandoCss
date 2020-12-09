@@ -1,0 +1,53 @@
+body{
+    background: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.estatic{
+    background: seagreen;
+    position: static;
+    color: white;
+    text-transform: uppercase;
+}
+
+.relative{
+    background: hotpink;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height: 100px;
+    width: 300px;
+    text-transform: uppercase;
+}
+
+.absolute{
+    background: goldenrod;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.sticky{
+    background: firebrick;
+    color: white;
+    position: sticky;
+    top: 50px;
+}
+
+.espacio{
+    background: forestgreen;
+    height: 1000px;
+}
+
+.fixed{
+    background: saddlebrown;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 90px;
+}

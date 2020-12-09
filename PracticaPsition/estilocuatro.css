@@ -1,0 +1,58 @@
+body{
+    background: rosybrown;
+    font-family: fantasy;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.estatico{
+    background: saddlebrown;
+    position: static;
+    color: white;
+    text-transform: uppercase;
+}
+
+.relativo{
+    background: aquamarine;
+    position: relative;
+    text-transform: uppercase;
+    top: 30px;
+    left: 30px;
+    width: 400px;
+    height: 100px;
+}
+
+.absolute{
+    background: red;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 30px;
+    left: 30px;
+}
+
+.sticky{
+    background: navy;
+    color: white;
+    position: sticky;
+    top: 50px;
+    text-transform: uppercase;
+}
+
+.contenedor{
+    background: goldenrod;
+    height: 1000px;
+    
+}
+
+.fixed{
+    background: salmon;
+    position: fixed;
+    text-transform: uppercase;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+}

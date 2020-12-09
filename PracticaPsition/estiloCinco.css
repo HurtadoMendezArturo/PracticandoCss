@@ -1,0 +1,48 @@
+body{
+    background: rgb(54, 49, 54);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.estatico{
+    background: teal;
+    position: static;
+    text-transform: uppercase;
+}
+
+.relativo{
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 400px;
+    height: 100px;
+}
+
+.absolute{
+    background: darkgreen;
+    position: absolute;
+    text-transform: uppercase;
+    top: 30px;
+    left: 30px;
+}
+
+.sticky{
+    background: fuchsia;
+    position: sticky;
+    top: 50px;
+}
+
+.contenedor{
+    background: darkblue;
+    height: 1000px;
+}
+
+.fixed{
+    background: gold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 60px;
+    width: 60px;
+}

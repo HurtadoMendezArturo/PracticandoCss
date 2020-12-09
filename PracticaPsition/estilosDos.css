@@ -1,0 +1,51 @@
+body{
+    background: sandybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.estatico{
+    background: fuchsia;
+    position: static;
+    text-transform: uppercase;
+}
+
+.relative{
+    background: darkcyan;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 400px;
+    height: 100px;
+    text-transform: uppercase;
+}
+
+.absolute{
+    background: tomato;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.sticky{
+    background: darkgoldenrod;
+    position: sticky;
+    top: 50px;
+    text-transform: uppercase;
+}
+
+.espacio{
+    background: green;
+    height: 1000px;
+}
+
+.fixed{
+    background: gold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 60px;
+}
